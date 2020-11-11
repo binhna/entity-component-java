@@ -1,0 +1,375 @@
+{
+  "dictionary": [
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "An Giang"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Bắc Giang"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Bắc Kạn"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Bạc Liêu"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Bắc Ninh"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Bà Rịa Vũng Tàu"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Bến Tre"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Bình Định"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Bình Dương"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Bình Phước"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Bình Thuận"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Cà Mau"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Cần Thơ"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Cao Bằng"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Đắk Lắk"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Đăk Nông"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Đắk Nông"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Đăc Nông"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Đắc Nông"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Đà Nẵng"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Điện Biên"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Đồng Nai"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Đồng Tháp"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Gia Lai"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Hà Giang"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Hải Dương"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "HD"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Hải Phòng"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "HP"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Hà Nam"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Hà Nội"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Hà Tĩnh"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Hậu Giang"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Hòa Bình"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Hưng Yên"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Khánh Hòa"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Kiên Giang"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Kon Tum"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Lai Châu"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Lâm Đồng"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Lạng Sơn"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Lào Cai"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Long An"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Nam Định"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Nghệ An"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Ninh Bình"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Ninh Thuận"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Phú Thọ"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Phú Yên"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Quảng Bình"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Quảng Nam"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Quảng Ngãi"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Quảng Ninh"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Quảng Trị"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Sóc Trăng"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Sơn La"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Tây Ninh"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Thái Bình"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Thái Nguyên"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Thanh Hóa"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Thừa Thiên-Huế"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Tiền Giang"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "TP Hồ Chí Minh"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Thành phố Hồ Chí Minh"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Hồ Chí Minh"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "tp hcm"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Sài Gòn"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Thừa Thiên Huế"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Huế"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Trà Vinh"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Tuyên Quang"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Vĩnh Long"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Vĩnh Phúc"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Yên Bái"
+    }
+  ],
+  "regex": []
+}

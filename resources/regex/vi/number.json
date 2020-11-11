@@ -1,0 +1,12 @@
+{
+  "dictionary": [],
+  "regex": [
+    {
+      "prefix": "",
+      "postfix": "",
+      "pattern": "(?:^|\\s)-?[0-9,.]{1,18}(?:$|\\s)",
+      "desc": "number 1",
+      "group": 0
+    }
+  ]
+}

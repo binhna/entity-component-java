@@ -1,0 +1,12 @@
+{
+  "dictionary": [],
+  "regex": [
+    {
+      "prefix": "(^|\\s)",
+      "postfix": "($|\\s)",
+      "pattern": "[0-9]*[,.]*[0-9]*\\.*\\,*\\-*[0-9]*[,.]*[0-9]+\\s*(nm/s|µm/s|mm/s|cm/s|dm/s|dam/s|hm/s|km/s|m/s|nm/giây|µm/giây|mm/giây|cm/giây|dm/giây|dam/giây|hm/giây|km/giây|m/giây|nm/h|µm/h|mm/h|cm/h|dm/h|dam/h|hm/h|km/h|m/h|nm/giờ|µm/giờ|mm/giờ|cm/giờ|dm/giờ|dam/giờ|hm/giờ|km/giờ|m/giờ)",
+      "desc": "speed + units  km/s ...",
+      "group": 0
+    }
+  ]
+}

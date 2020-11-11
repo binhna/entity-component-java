@@ -1,0 +1,19 @@
+{
+    "dictionary": [],
+    "regex": [
+      {
+        "prefix": "^|\\s",
+        "postfix": "$|\\s",
+        "pattern": "(không|ko|một|hai|ba|bốn|năm|sáu|bẩy|bảy|tám|chín|mười|[0-9]+)(?:\\s+(?:co|có))?(?:(?:\\s+)?(?:em be|em bé|cháu|trẻ em|người lớn|nguoi lon|ng lớn|ng lon|đứa|người))",
+        "desc": "không có trẻ em, 5 người lớn, 1 em bé 2t, một bé 5 tuổi",
+        "group": 0
+      },
+      {
+        "prefix": "^|\\s",
+        "postfix": "$|\\s",
+        "pattern": "(?:chỉ)(?:\\s+(?:co|có))?(?:\\s+(?:em be|em bé|cháu|bé|con gái|con trai|con|cháu gái|cháu trai|cháu|(?:mình )?tôi))",
+        "desc": "chỉ có con gái tôi, etc",
+        "group": 0
+      }
+    ]
+}

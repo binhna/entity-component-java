@@ -1,0 +1,12 @@
+{
+  "dictionary": [],
+  "regex": [
+    {
+      "prefix": "(^|\\s)",
+      "postfix": "($|\\s)",
+      "pattern": "[\\d]+[\\d,\\.]*(\\s*° C|\\s+độ c|\\s+độ C)",
+      "desc": "độ c",
+      "group": 0
+    }
+  ]
+}

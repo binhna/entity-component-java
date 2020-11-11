@@ -1,0 +1,12 @@
+{
+  "dictionary": [],
+  "regex": [
+    {
+      "prefix": "^|\\s",
+      "postfix": "$|\\s",
+      "pattern": "(?:^|\\s)(không|một|hai|hăm|ba|bốn|năm|sáu|bẩy|bảy|tám|chín|mười)+\\s*(không\\s*|một\\s*|mốt\\s*|hai\\s*|hăm\\s*|ba\\s*|bốn\\s*|tư\\s*|năm\\s*|lăm\\s*|nhăm\\s*|sáu\\s*|bẩy\\s*|bảy\\s*|tám\\s*|chín\\s*|mươi\\s*|mười\\s*|trăm\\s*|nghìn\\s*|ngàn\\s*|vạn\\s*|triệu\\s*|tỉ\\s*|tỷ\\s*|linh\\s*|lẻ\\s*)*(?:$|\\s)",
+      "desc": "number một hai ba bốn ",
+      "group": 0
+    }
+  ]
+}

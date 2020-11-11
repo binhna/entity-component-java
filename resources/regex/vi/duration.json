@@ -1,0 +1,19 @@
+{
+  "dictionary": [],
+  "regex": [
+    {
+      "prefix": "(?<!\\d)(?<!năm\\s)(?<!tháng\\s)(?<!tuần\\s)(?<!thứ\\s)(?<!ngày\\s)(?<!mùng\\s)(?<!giờ\\s)(?<!phút\\s)(?<!giây\\s)",
+      "postfix": "($|[\\s,.])",
+      "pattern": "(?:[\\d]+[,\\.])*[\\d]+\\s+(năm|tháng|tuần|ngày|giờ|phút|giây|đêm)",
+      "desc": "khoảng năm, tháng, tuần, ngày giờ phút giây",
+      "group": 0
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "pattern": "(\\d)+(?:\\s?ngay|\\s?ngày|[nN])\\s?(\\d)+(?:\\s?đem|\\s?đêm|\\s?dem|[dĐDđ])",
+      "desc": "3 ngày 2 đêm",
+      "group": 0
+    }
+  ]
+}

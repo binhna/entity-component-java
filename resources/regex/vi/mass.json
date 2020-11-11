@@ -1,0 +1,12 @@
+{
+  "dictionary": [],
+  "regex": [
+    {
+      "prefix": "(^|\\s)",
+      "postfix": "($|\\s)",
+      "pattern": "[0-9]*[,.]*[0-9]*\\.*\\,*\\-*[0-9]*[,.]*[0-9]+\\s*(kg|gram|mg|g|ki lô|gam)",
+      "desc": "weight + units  kg g gram mg",
+      "group": 0
+    }
+  ]
+}

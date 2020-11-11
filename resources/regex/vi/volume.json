@@ -1,0 +1,12 @@
+{
+  "dictionary": [],
+  "regex": [
+    {
+      "prefix": "(^|\\s)",
+      "postfix": "($|\\s)",
+      "pattern": "[0-9]*[,.]*[0-9]*\\.*\\,*\\-*[0-9]*[,.]*[0-9]+\\s*(ml|l|nm3|µm3|mm3|cm3|m3|km3|mét khối)",
+      "desc": "volume + units  ml l nm3 mm3 cm3 km3 m3 nm3 ",
+      "group": 0
+    }
+  ]
+}

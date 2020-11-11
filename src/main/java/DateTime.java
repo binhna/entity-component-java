@@ -43,6 +43,16 @@ public class DateTime {
         List<String> plusOne_ = Arrays.asList(plusOne);
         List<String> remain_ = Arrays.asList(remain);
 
+        if (Pattern.compile(ruleset.regex.get(0).pattern).matcher(this.raw).find()) {
+            String[] components_ = raw.split("[\\/.-]", -1);
+            List<String> components = Arrays.asList(components_);
+            if (components.size() == 3) {
+                Date dateOutput1 = new Date(Integer.parseInt(components.get(0)), Integer.parseInt(components.get(1)), Integer.parseInt(components.get(2)));
+                DateTime output1 = new DateTime(this.raw, dateOutput1);
+                output.add(output1);
+                output1.print();
+            }
+        }
         if (Pattern.compile(ruleset.regex.get(4).pattern).matcher(this.raw).find()) {
             List<String> days = Arrays.asList(this.raw.split("-", -1));
             List<String> secondComponents = Arrays.asList(days.get(days.size() - 1).split("/", -1));
@@ -246,6 +256,7 @@ public class DateTime {
                 if (plusOne_.contains(month)) {
                     month = (today.month < 12) ? String.valueOf(today.month + 1) : "1";
                     year = (isNumeric(year) && month.equals("1")) ? String.valueOf(Integer.parseInt(year) + 1) : year;
+                    year = (year == null) ? String.valueOf(today.year) : year;
                 }
                 Map<String, Integer> mappingMonth = new HashMap<>();
                 mappingMonth.put("một", 1);

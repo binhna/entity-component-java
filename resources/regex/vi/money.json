@@ -1,0 +1,19 @@
+{
+  "dictionary": [],
+  "regex": [
+    {
+      "prefix": "(^|\\s)",
+      "postfix": "($|\\s)",
+      "pattern": "[\\d]+[\\d,\\.]+[\\d]+(\\s+vnd|\\s+vnđ|\\s+đồng|\\s*d|\\s*đ|\\s*ngàn|\\s*triệu)",
+      "desc": "money vietnamese",
+      "group": 0
+    },
+    {
+      "prefix": "(^|\\s)",
+      "postfix": "($|\\s)",
+      "pattern": "([\\d]+([\\d,\\.]+[\\d]+)*)(\\s*triệu)[\\s]*(\\d+(?:\\s+trăm)?)?",
+      "desc": "money vietnamese",
+      "group": 0
+    }
+  ]
+}

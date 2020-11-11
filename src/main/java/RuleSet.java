@@ -11,7 +11,7 @@ public class RuleSet {
             rg.pattern = rg.pattern.replaceAll("\\?P=([\\w]+)", "\\\\k<$1>");
 //            rg.pattern = rg.pattern.replace("\\s", "\\\\s");
 
-            //System.out.println(rg.pattern);
+//            System.out.println(rg.pattern);
             regex.set(i, rg);
         }
     }

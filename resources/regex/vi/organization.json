@@ -1,0 +1,41 @@
+{
+  "dictionary": [
+        {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "FPT"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Vingroup"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Tập Đoàn Hòa Phát"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Viettel"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "Vinaphone"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "VNPT"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "VNG"
+    }
+
+  ],
+  "regex": []
+}

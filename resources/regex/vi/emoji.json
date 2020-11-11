@@ -1,0 +1,193 @@
+{
+  "dictionary": [
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "\":-)"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": ":)"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": ":]\""
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "\":-("
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": ":("
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": ":["
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "=(\""
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "\":-P"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": ":P"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "=P\""
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "\":-D"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": ":D"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "=D\""
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "\":-O"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": ":O"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": ":o"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": ":-o\""
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "\";-)"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": ";)\""
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "\"8-)"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "8)"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "B-)"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "B)\""
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "\">:("
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": ">:-("
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": ">:O"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": ">:-O\""
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "\":/"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": ":-/"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": ":\\"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": ":-\""
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": ":'("
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "<3"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "-_-"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": "<(“)"
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "key_word": ":v"
+    }
+  ],
+  "regex": [
+    {
+      "prefix": "",
+      "postfix": "",
+      "pattern": "=[\\)]+",
+      "desc": "khoảng năm, tháng, tuần, ngày giờ phút giây",
+      "group": 0
+    }
+  ]
+}

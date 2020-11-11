@@ -1,0 +1,12 @@
+{
+  "dictionary": [],
+  "regex": [
+    {
+      "prefix": "(^|\\s)",
+      "postfix": "($|\\s)",
+      "pattern": "[\\d]+[\\d,\\.]*(\\s*%|\\s+phần trăm)",
+      "desc": "phần trăm",
+      "group": 0
+    }
+  ]
+}

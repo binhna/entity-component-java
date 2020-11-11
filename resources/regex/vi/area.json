@@ -1,0 +1,12 @@
+{
+  "dictionary": [],
+  "regex": [
+    {
+      "prefix": "(^|\\s)",
+      "postfix": "($|\\s)",
+      "pattern": "[0-9]*[,.]*[0-9]*\\.*\\,*\\-*[0-9]*[,.]*[0-9]+\\s*(ha|km2|dm2|mm2|cm2|m2|mét vuông)",
+      "desc": "area + units  ha km2 dm2 cm2 mm2 m2",
+      "group": 0
+    }
+  ]
+}
