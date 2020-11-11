@@ -32,6 +32,7 @@ public class Main {
                 String name_entity_upper = "_" + name_entity.toUpperCase();
                 Reader reader_2 = Files.newBufferedReader(Paths.get(path));
                 RuleSet ruleSet = gson.fromJson(reader_2, RuleSet.class);
+                ruleSet.regexToJava();
                 typeRule.put(name_entity_upper, ruleSet);
             }
             reader.close();
@@ -39,8 +40,8 @@ public class Main {
         } catch (Exception ex) {
             ex.printStackTrace();
         }
-        DateTime entity = new DateTime("23-25/9", new Date());
-        entity.normalize(typeRule.get("_DATETIME"));
+        DateTime entity = new DateTime("thứ 3 tuần sau", new Date());
+        List<DateTime> output = entity.normalize(typeRule.get("_DATETIME"));
 //        convert_duration_vi(entity);
 //        convert_datetime_vi(entity);
     }
@@ -55,24 +56,5 @@ public class Main {
             System.out.println("Found value: " + m.group());
         }
         return null;
-    }
-
-    public static DateTime convert_datetime_vi(DateTime entity) {
-        if (entity.raw == null) {
-            return entity;
-        }
-        Date today = Date.now("Asia/Bangkok");
-
-        Date output = new Date();
-        System.out.println(output);
-
-//        Pattern r = Pattern.compile();
-//        Matcher m = r.matcher(entity_raw_str);
-//        if (m.find()) {
-//            System.out.println("Found value: " + m.group());
-//        }
-
-
-        return entity;
     }
 }
