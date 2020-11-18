@@ -1,38 +1,42 @@
 import java.time.DayOfWeek;
-import java.time.ZoneId;
 import java.time.temporal.TemporalAdjusters;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class DateTime {
-    public String type = "_DATETIME";
-    public String raw;
+public class DateTime extends Entity {
     public Date value;
 
     public DateTime(String entity_raw, Date entity_value) {
+        super();
+        this.type = "_DATETIME";
         this.raw = entity_raw;
         this.value = entity_value;
     }
-    public DateTime() { }
+    public DateTime() {
+        super();
+        this.type = "_DATETIME";
+    }
+
+    public List<Integer> getValues() {
+        List<Integer> result = new ArrayList<>();
+        result.add(value.day);
+        result.add(value.month);
+        result.add(value.year);
+        return result;
+    }
 
     public void print() {
-        System.out.println("Raw: " + this.raw);
-        System.out.println("Value " + value.day + "/" + value.month + "/" + value.year);
+        System.out.println(type + " | " + "Raw: " + this.raw + " | " + "Value " + value.day + "/" + value.month + "/" + value.year);
     }
-    private final Pattern pattern = Pattern.compile("-?\\d+(\\.\\d+)?");
 
-    public boolean isNumeric(String strNum) {
-        if (strNum == null) {
-            return false;
-        }
-        return pattern.matcher(strNum).matches();
+    public String getString() {
+        return type + " | " + "Raw: " + this.raw + " | " + "Value " + value.day + "/" + value.month + "/" + value.year;
     }
 
     public List<DateTime> normalize(RuleSet ruleset) {
 
         if (this.raw == null) {
-            System.out.println(ruleset.regex.get(4).pattern);
             return Collections.singletonList(this);
         }
         Date today = Date.now("Asia/Bangkok");
@@ -50,7 +54,6 @@ public class DateTime {
                 Date dateOutput1 = new Date(Integer.parseInt(components.get(0)), Integer.parseInt(components.get(1)), Integer.parseInt(components.get(2)));
                 DateTime output1 = new DateTime(this.raw, dateOutput1);
                 output.add(output1);
-                output1.print();
             }
         }
         if (Pattern.compile(ruleset.regex.get(4).pattern).matcher(this.raw).find()) {
@@ -73,10 +76,6 @@ public class DateTime {
             Date dateOutput1 = new Date(Integer.parseInt(day1), Integer.parseInt(month_tmp), Integer.parseInt(year_tmp));
             DateTime output1 = new DateTime(this.raw, dateOutput1);
             output.add(output1);
-
-            System.out.println("Found value: " + this.raw);
-            output1.print();
-            output2.print();
         }
         if (Pattern.compile(ruleset.regex.get(5).pattern).matcher(this.raw).find()) {
             Matcher m = Pattern.compile(ruleset.regex.get(5).pattern).matcher(this.raw);
@@ -100,15 +99,12 @@ public class DateTime {
                 Date dateOutput1 = new Date(Integer.parseInt(d_t), Integer.parseInt(m_t), Integer.parseInt(y_t));
                 DateTime output1 = new DateTime(this.raw, dateOutput1);
                 output.add(output1);
-
-                output1.print();
-                output2.print();
             }
         }
-        if (Pattern.compile("(?:[Nn]gày\\s+|[Ss]áng\\s+|[Tt]rưa\\s+|[Cc]hiều\\s+|[Tt]ối\\s+|[Kk]huya\\s+|[Đđ]êm\\s+|[Hh]ôm\\s+)nay").matcher(this.raw).find()) {
+        if (Pattern.compile("(?:[Nn]gày\\s+|[Ss]áng\\s+|[Tt]rưa\\s+|[Cc]hiều\\s+|[Tt]ối\\s+|[Kk]huya\\s+|[Đđ]êm\\s+|[Hh]ôm\\s+)nay|[bB]ây giờ|[lL]úc này|[Hh]iện tại").matcher(this.raw).find()) {
             output.add(new DateTime(this.raw, today));
         }
-        else if (Pattern.compile("(?:[Nn]gày\\s+|[Ss]áng\\s+|[Tt]rưa\\s+|[Cc]hiều\\s+|[Tt]ối\\s+|[Kk]huya\\s+|[Đđ]êm\\s+|[Hh]ôm\\s+)(ngày\\s+)?(mai|mơi|sau)").matcher(this.raw).find()) {
+        else if (Pattern.compile("(?:[Nn]gày\\s+|[Ss]áng\\s+|[Tt]rưa\\s+|[Cc]hiều\\s+|[Tt]ối\\s+|[Kk]huya\\s+|[Đđ]êm\\s+|[Hh]ôm\\s+)(ngày\\s+)?(mai|mơi|sau)|[Mm]ai").matcher(this.raw).find()) {
             Date dateOutput1 = Date.now("Asia/Bangkok");
             dateOutput1.plusDays(1);
             DateTime output1 = new DateTime(this.raw, dateOutput1);
@@ -158,7 +154,6 @@ public class DateTime {
             }
             DateTime output1 = new DateTime(this.raw, dateOutput1);
             output.add(output1);
-            output1.print();
         }
         else if ((this.raw.contains("thứ") || this.raw.contains("chủ nhật")) && this.raw.contains("tuần")) {
             Date dateOutput1 = Date.now("Asia/Bangkok");
@@ -196,7 +191,6 @@ public class DateTime {
             }
             DateTime output1 = new DateTime(this.raw, dateOutput1);
             output.add(output1);
-            output1.print();
         }
         else if (Pattern.compile(ruleset.regex.get(1).pattern).matcher(this.raw).find()) {
             Matcher m = Pattern.compile(ruleset.regex.get(1).pattern).matcher(this.raw);
@@ -242,7 +236,6 @@ public class DateTime {
                 Date dateOutput1 = new Date(Integer.parseInt(day), Integer.parseInt(month), Integer.parseInt(year));
                 DateTime output1 = new DateTime(this.raw, dateOutput1);
                 output.add(output1);
-                output1.print();
             }
         }
         else if (Pattern.compile(ruleset.regex.get(6).pattern).matcher(this.raw).find()) {
@@ -278,11 +271,9 @@ public class DateTime {
                 Date dateOutput1 = new Date(today.day, Integer.parseInt(month), Integer.parseInt(year));
                 DateTime output1 = new DateTime(this.raw, dateOutput1);
                 output.add(output1);
-                output1.print();
             }
         }
         return output;
     }
-
 }
 

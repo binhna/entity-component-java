@@ -49,6 +49,13 @@
       "pattern": "(?:\\s+|^)tháng ([1][0-2]|0?[1-9]|một|hai|ba|bốn|năm|sáu|bảy|tám|chín|mười|mười một|mười hai|tới|kế|sau|này)(?:\\s+năm\\s+([\\d]{4}|sau|kế|tới))?(?:\\s+|$)",
       "desc": "tháng 9",
       "group": 0
+    },
+    {
+      "prefix": "",
+      "postfix": "",
+      "pattern": "[hH]iện tại|[bB]ây giờ|[lL]úc này",
+      "desc": "hiện tại",
+      "group": 0
     }
   ]
 }
