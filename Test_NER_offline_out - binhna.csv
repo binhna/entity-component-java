@@ -1,103 +1,103 @@
-1,Sáng mai gọi tôi lúc 6h nhé,_TIME | Raw: 6h | Value 18/11/2020 6:0:0 <> _DATETIME | Raw: Sáng mai | Value 18/11/2020
-2,Gọi tôi dậy lúc 7h sáng mai,_TIME | Raw: 7h | Value 18/11/2020 7:0:0 <> _DATETIME | Raw: sáng mai | Value 18/11/2020
-3,Tôi muốn đặt báo thức lúc 23h,_TIME | Raw: 23h | Value 17/11/2020 23:0:0
-4,Tôi muốn đặt báo thức lúc 24h để dậy xem sao băng,_TIME | Raw: 24h | Value 17/11/2020 0:0:0
-5,Tôi muốn đặt báo thức lúc 0h để dậy đi đón mẹ,_TIME | Raw: 0h | Value 17/11/2020 0:0:0
-6,Tôi muốn đặt báo thức lúc 1:30 để dậy đi học,_TIME | Raw: 1:30 | Value 17/11/2020 1:30:0
-7,Tôi muốn đặt báo thức lúc 1:30,_TIME | Raw: 1:30 | Value 17/11/2020 1:30:0
-8,Sáng mai gọi anh dậy lúc 7h nhé baby,_TIME | Raw: 7h | Value 18/11/2020 7:0:0 <> _DATETIME | Raw: Sáng mai | Value 18/11/2020
-9,Có thể gọi tôi dậy sớm vào sáng mai không khoảng tầm 5h,_TIME | Raw: 5h | Value 18/11/2020 5:0:0 <> _DATETIME | Raw: sáng mai | Value 18/11/2020
-10,Mai Mạnh lên nên tôi phải dậy sớm đánh thức tôi lúc 4h nhé,_TIME | Raw: 4h | Value 17/11/2020 4:0:0
-11,Mình phải dậy sớm lúc 4h nhớ gọi mình dậy nhé,_TIME | Raw: 4h | Value 17/11/2020 4:0:0
-12,Đừng ngủ quên nhé gọi tôi vào 7h sáng mai nhé,_TIME | Raw: 7h | Value 18/11/2020 7:0:0 <> _DATETIME | Raw: sáng mai | Value 18/11/2020
-13,Gọi tôi lúc 7h sáng mai nhé đừng để tôi ngủ quên,_TIME | Raw: 7h | Value 18/11/2020 7:0:0 <> _DATETIME | Raw: sáng mai | Value 18/11/2020
-14,Đặt giúp tôi báo thức lúc 7:50,_TIME | Raw: 7:50 | Value 17/11/2020 7:50:0
-15,Gọi anh dậy lúc 7h sáng mai nhé vợ,_TIME | Raw: 7h | Value 18/11/2020 7:0:0 <> _DATETIME | Raw: sáng mai | Value 18/11/2020
-16,Cài hộ anh cái báo thức lúc 4h đi mệt quá rồi,_TIME | Raw: 4h | Value 17/11/2020 4:0:0
-17,Nhắc tôi đi đón con lúc 12h trưa nhé,_TIME | Raw: 12h | Value 17/11/2020 12:0:0
-18,Cài báo thức lúc 12h đêm đi tôi muốn đi ngắm trăng xanh,_TIME | Raw: 12h | Value 17/11/2020 0:0:0
-19,Cài hộ tôi báo thức lúc 2:40 chiều,_TIME | Raw: 2:40 | Value 17/11/2020 14:40:0
-20,Cài hộ tôi báo thức lúc 7h đúng tối,_TIME | Raw: 7h | Value 17/11/2020 19:0:0
-21,Gọi anh lúc 11h đêm nhé,_TIME | Raw: 11h | Value 17/11/2020 23:0:0
-22,Cài hộ tôi báo thức lúc 6h sáng,_TIME | Raw: 6h | Value 17/11/2020 6:0:0
-23,Tôi muốn cài báo thức lúc 1:30 và 6h,_TIME | Raw: 1:30 | Value 17/11/2020 1:30:0 <> _TIME | Raw: 6h | Value 17/11/2020 6:0:0
-24,Tôi muốn cài báo thức lúc 11h và 19h,_TIME | Raw: 11h | Value 17/11/2020 11:0:0 <> _TIME | Raw: 19h | Value 17/11/2020 19:0:0
-25,Tôi muốn cài báo thức lúc 12h đêm và 5:20,_TIME | Raw: 12h | Value 17/11/2020 0:0:0 <> _TIME | Raw: 5:20 | Value 17/11/2020 17:20:0
-26,Tôi muốn cài báo thức lúc 6h sáng và 7h đúng tối,_TIME | Raw: 6h | Value 17/11/2020 18:0:0 <> _TIME | Raw: 7h | Value 17/11/2020 19:0:0
-27,Tôi muốn cài báo thức lúc 2:40 phút chiều và 1h,_TIME | Raw: 2:40 | Value 17/11/2020 14:40:0 <> _TIME | Raw: 1h | Value 17/11/2020 13:0:0 <> _TIME | Raw: 40 phút  | Value 17/11/2020 16:0:27
-28,Đặt báo thức lúc 7:25 và 6:29,_TIME | Raw: 7:25 | Value 17/11/2020 7:25:0 <> _TIME | Raw: 6:29 | Value 17/11/2020 6:29:0
-29,Đặt báo thức lúc 2:05 vào tất cả các ngày trong tuần,_TIME | Raw: 2:05 | Value 17/11/2020 2:5:0
-30,Tôi muốn đặt báo thức lúc 3:10 vào tất cả các ngày trong tuần,_TIME | Raw: 3:10 | Value 17/11/2020 3:10:0
-31,Tôi muốn cài báo thức lúc 4:15 vào tất cả các ngày trong tuần,_TIME | Raw: 4:15 | Value 17/11/2020 4:15:0
-32,Tôi muốn đặt báo thức lúc 5:20 vào tất cả các ngày trong tuần trừ thứ 7,_TIME | Raw: 5:20 | Value 21/11/2020 5:20:0 <> _DATETIME | Raw: thứ 7 | Value 21/11/2020
-33,Đặt báo thức lúc 6:29 vào tất cả các ngày trong tuần,_TIME | Raw: 6:29 | Value 17/11/2020 6:29:0
-34,Đặt báo thức lúc 7:35 vào tất cả các ngày trong tuần,_TIME | Raw: 7:35 | Value 17/11/2020 7:35:0
-35,Đặt báo thức lúc 10:45 vào thứ 2 4 6 đi,_TIME | Raw: 10:45 | Value 23/11/2020 10:45:0 <> _DATETIME | Raw: thứ 2 | Value 23/11/2020
-36,Gọi tôi dậy lúc sáng mai,_DATETIME | Raw: sáng mai | Value 18/11/2020
-37,Sáng mai đánh thức tôi dậy,_DATETIME | Raw: Sáng mai | Value 18/11/2020
-38,Gọi tôi dậy lúc 6h,_TIME | Raw: 6h | Value 17/11/2020 6:0:0
-39,Đặt báo thức lúc 1h nhé,_TIME | Raw: 1h | Value 17/11/2020 1:0:0
+1,Sáng mai gọi tôi lúc 6h nhé,_TIME | Raw: 6h | Value 24/11/2020 6:0:0 <> _DATETIME | Raw: Sáng mai | Value 24/11/2020
+2,Gọi tôi dậy lúc 7h sáng mai,_TIME | Raw: 7h | Value 24/11/2020 7:0:0 <> _DATETIME | Raw: sáng mai | Value 24/11/2020
+3,Tôi muốn đặt báo thức lúc 23h,_TIME | Raw: 23h | Value 23/11/2020 23:0:0
+4,Tôi muốn đặt báo thức lúc 24h để dậy xem sao băng,_TIME | Raw: 24h | Value 23/11/2020 0:0:0
+5,Tôi muốn đặt báo thức lúc 0h để dậy đi đón mẹ,_TIME | Raw: 0h | Value 23/11/2020 0:0:0
+6,Tôi muốn đặt báo thức lúc 1:30 để dậy đi học,_TIME | Raw: 1:30 | Value 23/11/2020 1:30:0
+7,Tôi muốn đặt báo thức lúc 1:30,_TIME | Raw: 1:30 | Value 23/11/2020 1:30:0
+8,Sáng mai gọi anh dậy lúc 7h nhé baby,_TIME | Raw: 7h | Value 24/11/2020 7:0:0 <> _DATETIME | Raw: Sáng mai | Value 24/11/2020
+9,Có thể gọi tôi dậy sớm vào sáng mai không khoảng tầm 5h,_TIME | Raw: 5h | Value 24/11/2020 5:0:0 <> _DATETIME | Raw: sáng mai | Value 24/11/2020
+10,Mai Mạnh lên nên tôi phải dậy sớm đánh thức tôi lúc 4h nhé,_TIME | Raw: 4h | Value 23/11/2020 4:0:0
+11,Mình phải dậy sớm lúc 4h nhớ gọi mình dậy nhé,_TIME | Raw: 4h | Value 23/11/2020 4:0:0
+12,Đừng ngủ quên nhé gọi tôi vào 7h sáng mai nhé,_TIME | Raw: 7h | Value 24/11/2020 7:0:0 <> _DATETIME | Raw: sáng mai | Value 24/11/2020
+13,Gọi tôi lúc 7h sáng mai nhé đừng để tôi ngủ quên,_TIME | Raw: 7h | Value 24/11/2020 7:0:0 <> _DATETIME | Raw: sáng mai | Value 24/11/2020
+14,Đặt giúp tôi báo thức lúc 7:50,_TIME | Raw: 7:50 | Value 23/11/2020 7:50:0
+15,Gọi anh dậy lúc 7h sáng mai nhé vợ,_TIME | Raw: 7h | Value 24/11/2020 7:0:0 <> _DATETIME | Raw: sáng mai | Value 24/11/2020
+16,Cài hộ anh cái báo thức lúc 4h đi mệt quá rồi,_TIME | Raw: 4h | Value 23/11/2020 4:0:0
+17,Nhắc tôi đi đón con lúc 12h trưa nhé,_TIME | Raw: 12h | Value 23/11/2020 12:0:0
+18,Cài báo thức lúc 12h đêm đi tôi muốn đi ngắm trăng xanh,_TIME | Raw: 12h | Value 23/11/2020 0:0:0
+19,Cài hộ tôi báo thức lúc 2:40 chiều,_TIME | Raw: 2:40 | Value 23/11/2020 14:40:0
+20,Cài hộ tôi báo thức lúc 7h đúng tối,_TIME | Raw: 7h | Value 23/11/2020 19:0:0
+21,Gọi anh lúc 11h đêm nhé,_TIME | Raw: 11h | Value 23/11/2020 23:0:0
+22,Cài hộ tôi báo thức lúc 6h sáng,_TIME | Raw: 6h | Value 23/11/2020 6:0:0
+23,Tôi muốn cài báo thức lúc 1:30 và 6h,_TIME | Raw: 1:30 | Value 23/11/2020 1:30:0 <> _TIME | Raw: 6h | Value 23/11/2020 6:0:0
+24,Tôi muốn cài báo thức lúc 11h và 19h,_TIME | Raw: 11h | Value 23/11/2020 11:0:0 <> _TIME | Raw: 19h | Value 23/11/2020 19:0:0
+25,Tôi muốn cài báo thức lúc 12h đêm và 5:20,_TIME | Raw: 12h | Value 23/11/2020 0:0:0 <> _TIME | Raw: 5:20 | Value 23/11/2020 17:20:0
+26,Tôi muốn cài báo thức lúc 6h sáng và 7h đúng tối,_TIME | Raw: 6h | Value 23/11/2020 18:0:0 <> _TIME | Raw: 7h | Value 23/11/2020 19:0:0
+27,Tôi muốn cài báo thức lúc 2:40 phút chiều và 1h,_TIME | Raw: 2:40 | Value 23/11/2020 14:40:0 <> _TIME | Raw: 1h | Value 23/11/2020 13:0:0 <> _TIME | Raw: 40 phút  | Value 23/11/2020 10:1:40
+28,Đặt báo thức lúc 7:25 và 6:29,_TIME | Raw: 7:25 | Value 23/11/2020 7:25:0 <> _TIME | Raw: 6:29 | Value 23/11/2020 6:29:0
+29,Đặt báo thức lúc 2:05 vào tất cả các ngày trong tuần,_TIME | Raw: 2:05 | Value 23/11/2020 2:5:0
+30,Tôi muốn đặt báo thức lúc 3:10 vào tất cả các ngày trong tuần,_TIME | Raw: 3:10 | Value 23/11/2020 3:10:0
+31,Tôi muốn cài báo thức lúc 4:15 vào tất cả các ngày trong tuần,_TIME | Raw: 4:15 | Value 23/11/2020 4:15:0
+32,Tôi muốn đặt báo thức lúc 5:20 vào tất cả các ngày trong tuần trừ thứ 7,_TIME | Raw: 5:20 | Value 28/11/2020 5:20:0 <> _DATETIME | Raw: thứ 7 | Value 28/11/2020
+33,Đặt báo thức lúc 6:29 vào tất cả các ngày trong tuần,_TIME | Raw: 6:29 | Value 23/11/2020 6:29:0
+34,Đặt báo thức lúc 7:35 vào tất cả các ngày trong tuần,_TIME | Raw: 7:35 | Value 23/11/2020 7:35:0
+35,Đặt báo thức lúc 10:45 vào thứ 2 4 6 đi,_TIME | Raw: 10:45 | Value 30/11/2020 10:45:0 <> _DATETIME | Raw: thứ 2 | Value 30/11/2020
+36,Gọi tôi dậy lúc sáng mai,_DATETIME | Raw: sáng mai | Value 24/11/2020
+37,Sáng mai đánh thức tôi dậy,_DATETIME | Raw: Sáng mai | Value 24/11/2020
+38,Gọi tôi dậy lúc 6h,_TIME | Raw: 6h | Value 23/11/2020 6:0:0
+39,Đặt báo thức lúc 1h nhé,_TIME | Raw: 1h | Value 23/11/2020 1:0:0
 40,Đặt báo thức,
 41,Cài báo thức,
 42,Tôi muốn đặt báo thức,
 43,Đặt giúp tôi mấy cái báo thức đi,
-44,Cài báo thức lúc 7:50 vào tất cả các ngày trong tuần,_TIME | Raw: 7:50 | Value 17/11/2020 7:50:0
-45,Cài báo thức lúc 8:45 vào tất cả các ngày trong tuần,_TIME | Raw: 8:45 | Value 17/11/2020 8:45:0
-46,Cài báo thức lúc 10:45 vào tất cả các ngày trong tuần,_TIME | Raw: 10:45 | Value 17/11/2020 10:45:0
-47,Cài báo thức lúc 12h trưa vào tất cả các ngày trong tuần,_TIME | Raw: 12h | Value 17/11/2020 12:0:0
-48,Cài báo thức lúc 12h đêm vào tất cả các ngày trong tuần,_TIME | Raw: 12h | Value 17/11/2020 0:0:0
-49,Cài báo thức lúc 2:40 chiều vào tất cả các ngày trong tuần,_TIME | Raw: 2:40 | Value 17/11/2020 14:40:0
-50,Cài báo thức lúc mười 3h 6h và 19h,_TIME | Raw: 3h | Value 17/11/2020 3:0:0 <> _TIME | Raw: 6h | Value 17/11/2020 6:0:0 <> _TIME | Raw: 19h | Value 17/11/2020 19:0:0
-51,Đổ chuông sau 10 phút nữa kể từ bây giờ,_TIME | Raw: 10 phút  | Value 17/11/2020 15:30:27 <> _DATETIME | Raw: bây giờ | Value 17/11/2020
-52,Đếm ngược giúp tôi 25 phút đi,_TIME | Raw: 25 phút  | Value 17/11/2020 15:45:27
-53,20 phút nữa là bánh chín đấy nhớ nhắc bác đấy,_TIME | Raw: 20 phút  | Value 17/11/2020 15:40:27
-54,Còn 10 phút nữa là đến giờ đi đón con rồi nhớ nhắc tôi đấy nhé,_TIME | Raw: 10 phút  | Value 17/11/2020 15:30:27
-55,Đến ngược 10 phút rồi gọi tôi nhé,_TIME | Raw: 10 phút  | Value 17/11/2020 15:30:27
-56,30 phút nữa gọi tôi đi tôi chợp mắt một chút,_TIME | Raw: 30 phút  | Value 17/11/2020 15:50:27
-57,Hãy gọi tôi dậy sau 10 phút nữa nhé,_TIME | Raw: 10 phút  | Value 17/11/2020 15:30:27
-58,Tôi vừa làm bánh hẹn 10 phút nữa để lật bánh nhé,_TIME | Raw: 10 phút  | Value 17/11/2020 15:30:27
-59,Hẹn giúp tôi 20 phút nữa để còn dậy qua ngó em bé,_TIME | Raw: 20 phút  | Value 17/11/2020 15:40:27
-60,Đổ chuông sau 4 tiếng nữa kể từ bây giờ nhé,_TIME | Raw: 4 tiếng  | Value 17/11/2020 19:20:27 <> _DATETIME | Raw: bây giờ | Value 17/11/2020
-61,20phút nữa nhớ đánh thức tôi đấy,_TIME | Raw: 20phút  | Value 17/11/2020 15:40:27
-62,Sắp đến giờ đi làm rồi đánh thức tôi sau 30 phút nữa tôi muốn ngủ thêm một chút,_TIME | Raw: 30 phút  | Value 17/11/2020 15:50:27
-63,Bấm giờ 2 tiếng nhé để tôi làm thử đề kiểm tra,_TIME | Raw: 2 tiếng  | Value 17/11/2020 17:20:27
-64,Đổ chuông sau 8 tiếng nữa kể từ bây giờ,_TIME | Raw: 8 tiếng  | Value 17/11/2020 23:20:27 <> _DATETIME | Raw: bây giờ | Value 17/11/2020
-65,Đổ chuông sau 2 tiếng nữa nhé tôi sẽ luyện tập từ bây giờ,_TIME | Raw: 2 tiếng  | Value 17/11/2020 17:20:27 <> _DATETIME | Raw: bây giờ | Value 17/11/2020
-66,2 tiếng nữa bố mẹ tôi sẽ đến nhớ nhắc tôi đi đón họ,_TIME | Raw: 2 tiếng  | Value 17/11/2020 17:20:27
-67,Đổ chuông sau 11 tiếng nữa kể từ bây giờ,_TIME | Raw: 11 tiếng  | Value 18/11/2020 2:20:27 <> _DATETIME | Raw: bây giờ | Value 17/11/2020
-68,Đổ chuông sau 12 tiếng nữa kể từ bây giờ,_TIME | Raw: 12 tiếng  | Value 18/11/2020 3:20:27 <> _DATETIME | Raw: bây giờ | Value 17/11/2020
-69,Đổ chuông sau 14 tiếng nữa kể từ bây giờ,_TIME | Raw: 14 tiếng  | Value 18/11/2020 5:20:27 <> _DATETIME | Raw: bây giờ | Value 17/11/2020
-70,Set thời gian 20 phút nữa nhé tôi sẽ dậy chuẩn bị đồ ăn sáng cho cả nhà,_TIME | Raw: 20 phút  | Value 17/11/2020 15:40:27
-71,Lười quá hãy gọi tôi sau 30 phút nữa,_TIME | Raw: 30 phút  | Value 17/11/2020 15:50:27
-72,Tôi vẫn còn buồn ngủ tôi sẽ ngủ thêm 10 phút nữa sau đó gọi tôi dậy nhé,_TIME | Raw: 10 phút  | Value 17/11/2020 15:30:27
-73,Tôi sẽ ngủ thêm 10 phút nữa gọi tôi sau nhé,_TIME | Raw: 10 phút  | Value 17/11/2020 15:30:27
-74,5 tiếng nữa nhắc tôi tắt máy bơm,_TIME | Raw: 5 tiếng  | Value 17/11/2020 20:20:27
-75,Hãy gọi tôi sau 10 phút nữa tôi muốn ngủ 1 chút,_TIME | Raw: 10 phút  | Value 17/11/2020 15:30:27
-76,10 phút nữa tôi sẽ có 1 cuộc họp gấp gọi tôi nhé giờ tôi muốn chợp mắt 1 tẹo,_TIME | Raw: 10 phút  | Value 17/11/2020 15:30:27
-77,Tôi sẽ chợp mặt 20 phút rồi dậy,_TIME | Raw: 20 phút  | Value 17/11/2020 15:40:27
-78,10 phút nữa gọi chồng tôi dậy nhé,_TIME | Raw: 10 phút  | Value 17/11/2020 15:30:27
-79,20 phút nữa sẽ có người đến chơi nhà nhắc tôi chuẩn bị nhé,_TIME | Raw: 20 phút  | Value 17/11/2020 15:40:27
-80,Hãy nhắc bác lật bánh trong lò sau 10 phút nữa,_TIME | Raw: 10 phút  | Value 17/11/2020 15:30:27
+44,Cài báo thức lúc 7:50 vào tất cả các ngày trong tuần,_TIME | Raw: 7:50 | Value 23/11/2020 7:50:0
+45,Cài báo thức lúc 8:45 vào tất cả các ngày trong tuần,_TIME | Raw: 8:45 | Value 23/11/2020 8:45:0
+46,Cài báo thức lúc 10:45 vào tất cả các ngày trong tuần,_TIME | Raw: 10:45 | Value 23/11/2020 10:45:0
+47,Cài báo thức lúc 12h trưa vào tất cả các ngày trong tuần,_TIME | Raw: 12h | Value 23/11/2020 12:0:0
+48,Cài báo thức lúc 12h đêm vào tất cả các ngày trong tuần,_TIME | Raw: 12h | Value 23/11/2020 0:0:0
+49,Cài báo thức lúc 2:40 chiều vào tất cả các ngày trong tuần,_TIME | Raw: 2:40 | Value 23/11/2020 14:40:0
+50,Cài báo thức lúc mười 3h 6h và 19h,_TIME | Raw: 3h | Value 23/11/2020 3:0:0 <> _TIME | Raw: 6h | Value 23/11/2020 6:0:0 <> _TIME | Raw: 19h | Value 23/11/2020 19:0:0
+51,Đổ chuông sau 10 phút nữa kể từ bây giờ,_TIME | Raw: 10 phút  | Value 23/11/2020 9:31:40 <> _DATETIME | Raw: bây giờ | Value 23/11/2020
+52,Đếm ngược giúp tôi 25 phút đi,_TIME | Raw: 25 phút  | Value 23/11/2020 9:46:40
+53,20 phút nữa là bánh chín đấy nhớ nhắc bác đấy,_TIME | Raw: 20 phút  | Value 23/11/2020 9:41:40
+54,Còn 10 phút nữa là đến giờ đi đón con rồi nhớ nhắc tôi đấy nhé,_TIME | Raw: 10 phút  | Value 23/11/2020 9:31:40
+55,Đến ngược 10 phút rồi gọi tôi nhé,_TIME | Raw: 10 phút  | Value 23/11/2020 9:31:40
+56,30 phút nữa gọi tôi đi tôi chợp mắt một chút,_TIME | Raw: 30 phút  | Value 23/11/2020 9:51:40
+57,Hãy gọi tôi dậy sau 10 phút nữa nhé,_TIME | Raw: 10 phút  | Value 23/11/2020 9:31:40
+58,Tôi vừa làm bánh hẹn 10 phút nữa để lật bánh nhé,_TIME | Raw: 10 phút  | Value 23/11/2020 9:31:40
+59,Hẹn giúp tôi 20 phút nữa để còn dậy qua ngó em bé,_TIME | Raw: 20 phút  | Value 23/11/2020 9:41:40
+60,Đổ chuông sau 4 tiếng nữa kể từ bây giờ nhé,_TIME | Raw: 4 tiếng  | Value 23/11/2020 13:21:40 <> _DATETIME | Raw: bây giờ | Value 23/11/2020
+61,20phút nữa nhớ đánh thức tôi đấy,_TIME | Raw: 20phút  | Value 23/11/2020 9:41:40
+62,Sắp đến giờ đi làm rồi đánh thức tôi sau 30 phút nữa tôi muốn ngủ thêm một chút,_TIME | Raw: 30 phút  | Value 23/11/2020 9:51:40
+63,Bấm giờ 2 tiếng nhé để tôi làm thử đề kiểm tra,_TIME | Raw: 2 tiếng  | Value 23/11/2020 11:21:40
+64,Đổ chuông sau 8 tiếng nữa kể từ bây giờ,_TIME | Raw: 8 tiếng  | Value 23/11/2020 17:21:40 <> _DATETIME | Raw: bây giờ | Value 23/11/2020
+65,Đổ chuông sau 2 tiếng nữa nhé tôi sẽ luyện tập từ bây giờ,_TIME | Raw: 2 tiếng  | Value 23/11/2020 11:21:40 <> _DATETIME | Raw: bây giờ | Value 23/11/2020
+66,2 tiếng nữa bố mẹ tôi sẽ đến nhớ nhắc tôi đi đón họ,_TIME | Raw: 2 tiếng  | Value 23/11/2020 11:21:40
+67,Đổ chuông sau 11 tiếng nữa kể từ bây giờ,_TIME | Raw: 11 tiếng  | Value 23/11/2020 20:21:40 <> _DATETIME | Raw: bây giờ | Value 23/11/2020
+68,Đổ chuông sau 12 tiếng nữa kể từ bây giờ,_TIME | Raw: 12 tiếng  | Value 23/11/2020 21:21:40 <> _DATETIME | Raw: bây giờ | Value 23/11/2020
+69,Đổ chuông sau 14 tiếng nữa kể từ bây giờ,_TIME | Raw: 14 tiếng  | Value 23/11/2020 23:21:40 <> _DATETIME | Raw: bây giờ | Value 23/11/2020
+70,Set thời gian 20 phút nữa nhé tôi sẽ dậy chuẩn bị đồ ăn sáng cho cả nhà,_TIME | Raw: 20 phút  | Value 23/11/2020 9:41:40
+71,Lười quá hãy gọi tôi sau 30 phút nữa,_TIME | Raw: 30 phút  | Value 23/11/2020 9:51:40
+72,Tôi vẫn còn buồn ngủ tôi sẽ ngủ thêm 10 phút nữa sau đó gọi tôi dậy nhé,_TIME | Raw: 10 phút  | Value 23/11/2020 9:31:40
+73,Tôi sẽ ngủ thêm 10 phút nữa gọi tôi sau nhé,_TIME | Raw: 10 phút  | Value 23/11/2020 9:31:40
+74,5 tiếng nữa nhắc tôi tắt máy bơm,_TIME | Raw: 5 tiếng  | Value 23/11/2020 14:21:40
+75,Hãy gọi tôi sau 10 phút nữa tôi muốn ngủ 1 chút,_TIME | Raw: 10 phút  | Value 23/11/2020 9:31:40
+76,10 phút nữa tôi sẽ có 1 cuộc họp gấp gọi tôi nhé giờ tôi muốn chợp mắt 1 tẹo,_TIME | Raw: 10 phút  | Value 23/11/2020 9:31:40
+77,Tôi sẽ chợp mặt 20 phút rồi dậy,_TIME | Raw: 20 phút  | Value 23/11/2020 9:41:40
+78,10 phút nữa gọi chồng tôi dậy nhé,_TIME | Raw: 10 phút  | Value 23/11/2020 9:31:40
+79,20 phút nữa sẽ có người đến chơi nhà nhắc tôi chuẩn bị nhé,_TIME | Raw: 20 phút  | Value 23/11/2020 9:41:40
+80,Hãy nhắc bác lật bánh trong lò sau 10 phút nữa,_TIME | Raw: 10 phút  | Value 23/11/2020 9:31:40
 81,Hãy nhắc bác tắt bếp sau 20 nữa cn nhé,
-82,2 tiếng nữa nhắc tôi đi đón con,_TIME | Raw: 2 tiếng  | Value 17/11/2020 17:20:27
-83,Tôi sẽ đón con sau 2 tiếng nữa vì vậy hãy nhắc tôi nhé,_TIME | Raw: 2 tiếng  | Value 17/11/2020 17:20:27
-84,1 tiếng nữa nhắc tôi phơi quần áo,_TIME | Raw: 1 tiếng  | Value 17/11/2020 16:20:27
-85,Tôi vừa giặt quần áo xong 10 phút nữa nhắc tôi đi phơi đấy,_TIME | Raw: 10 phút  | Value 17/11/2020 15:30:27
-86,Tôi cần dậy sau 10 phút nữa đừng có quên đấy,_TIME | Raw: 10 phút  | Value 17/11/2020 15:30:27
-87,30 phút nữa nước sẽ được nhắc tôi đi tắm nhé,_TIME | Raw: 30 phút  | Value 17/11/2020 15:50:27
-88,2 tiếng nữa nhắc tôi đi chợ,_TIME | Raw: 2 tiếng  | Value 17/11/2020 17:20:27
-89,Nhắc tôi đi tắm sau 30 phút nữa nhá,_TIME | Raw: 30 phút  | Value 17/11/2020 15:50:27
-90,4 tiếng nữa nhắc tôi dậy đi chợ đấy nhé biết chưa,_TIME | Raw: 4 tiếng  | Value 17/11/2020 19:20:27
-91,1 tiếng nữa máy giặt sẽ xong nhớ nhắc tôi đi phơi quần áo đấy,_TIME | Raw: 1 tiếng  | Value 17/11/2020 16:20:27
-92,2 tiếng nữa nhắc tôi cất quần áo vào trong nhà,_TIME | Raw: 2 tiếng  | Value 17/11/2020 17:20:27
-93,Đếm ngược 20 phút đi,_TIME | Raw: 20 phút  | Value 17/11/2020 15:40:27
-94,1 tiếng nhớ gọi tôi dậy đấy,_TIME | Raw: 1 tiếng  | Value 17/11/2020 16:20:27
-95,sáng mai nhớ gọi anh dậy vào lúc 7h nhé cưng,_TIME | Raw: 7h | Value 18/11/2020 7:0:0 <> _DATETIME | Raw: sáng mai | Value 18/11/2020
-96,giục tôi đi ngủ sau 2 tiếng nữa nhé,_TIME | Raw: 2 tiếng  | Value 17/11/2020 17:20:27
-97,20 phút nữa nhắc tôi đi gặp khách hàng,_TIME | Raw: 20 phút  | Value 17/11/2020 15:40:27
-98,30 phút nữa nhắc tôi cần phải ra ngoài nhớ giục tôi,_TIME | Raw: 30 phút  | Value 17/11/2020 15:50:27
-99,10 phút nữa nhắc tôi đi họp nhé,_TIME | Raw: 10 phút  | Value 17/11/2020 15:30:27
-100,25 phút nữa nhắc tôi đi đón con đừng quên đấy,_TIME | Raw: 25 phút  | Value 17/11/2020 15:45:27
+82,2 tiếng nữa nhắc tôi đi đón con,_TIME | Raw: 2 tiếng  | Value 23/11/2020 11:21:40
+83,Tôi sẽ đón con sau 2 tiếng nữa vì vậy hãy nhắc tôi nhé,_TIME | Raw: 2 tiếng  | Value 23/11/2020 11:21:40
+84,1 tiếng nữa nhắc tôi phơi quần áo,_TIME | Raw: 1 tiếng  | Value 23/11/2020 10:21:40
+85,Tôi vừa giặt quần áo xong 10 phút nữa nhắc tôi đi phơi đấy,_TIME | Raw: 10 phút  | Value 23/11/2020 9:31:40
+86,Tôi cần dậy sau 10 phút nữa đừng có quên đấy,_TIME | Raw: 10 phút  | Value 23/11/2020 9:31:40
+87,30 phút nữa nước sẽ được nhắc tôi đi tắm nhé,_TIME | Raw: 30 phút  | Value 23/11/2020 9:51:40
+88,2 tiếng nữa nhắc tôi đi chợ,_TIME | Raw: 2 tiếng  | Value 23/11/2020 11:21:40
+89,Nhắc tôi đi tắm sau 30 phút nữa nhá,_TIME | Raw: 30 phút  | Value 23/11/2020 9:51:40
+90,4 tiếng nữa nhắc tôi dậy đi chợ đấy nhé biết chưa,_TIME | Raw: 4 tiếng  | Value 23/11/2020 13:21:40
+91,1 tiếng nữa máy giặt sẽ xong nhớ nhắc tôi đi phơi quần áo đấy,_TIME | Raw: 1 tiếng  | Value 23/11/2020 10:21:40
+92,2 tiếng nữa nhắc tôi cất quần áo vào trong nhà,_TIME | Raw: 2 tiếng  | Value 23/11/2020 11:21:40
+93,Đếm ngược 20 phút đi,_TIME | Raw: 20 phút  | Value 23/11/2020 9:41:40
+94,1 tiếng nhớ gọi tôi dậy đấy,_TIME | Raw: 1 tiếng  | Value 23/11/2020 10:21:40
+95,sáng mai nhớ gọi anh dậy vào lúc 7h nhé cưng,_TIME | Raw: 7h | Value 24/11/2020 7:0:0 <> _DATETIME | Raw: sáng mai | Value 24/11/2020
+96,giục tôi đi ngủ sau 2 tiếng nữa nhé,_TIME | Raw: 2 tiếng  | Value 23/11/2020 11:21:40
+97,20 phút nữa nhắc tôi đi gặp khách hàng,_TIME | Raw: 20 phút  | Value 23/11/2020 9:41:40
+98,30 phút nữa nhắc tôi cần phải ra ngoài nhớ giục tôi,_TIME | Raw: 30 phút  | Value 23/11/2020 9:51:40
+99,10 phút nữa nhắc tôi đi họp nhé,_TIME | Raw: 10 phút  | Value 23/11/2020 9:31:40
+100,25 phút nữa nhắc tôi đi đón con đừng quên đấy,_TIME | Raw: 25 phút  | Value 23/11/2020 9:46:40
 101,Dừng hẹn giờ đi,
 102,Stop hẹn giờ một lúc đi,
 103,Tạm dừng hẹn giờ một chút đi,
