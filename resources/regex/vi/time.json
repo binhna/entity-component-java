@@ -33,7 +33,14 @@
       "prefix": "",
       "postfix": "",
       "pattern": "\\b([\\d]+)\\s?(phút|giây|tiếng|giờ nữa)(?:$|\\s|\\b)",
-      "desc": "10 phút nữa, 1 tiếng nữa ",
+      "desc": "10 phút nữa, 1 tiếng nữa, sau 10 phút",
+      "group": 0
+    },
+    {
+      "prefix": "(^|\\s)",
+      "postfix": "('?($|\\s))",
+      "pattern": "\\b(0?[0-9]|1\\d|2[0-3])(?:\\s+giờ)(?:\\s+(kém\\s+)?(0?[0-9]|[1-5]\\d)(?:\\s+phút)?)?(?!\\s+nữa)\\b",
+      "desc": "4 giờ, 4 giờ 24 phút, 6 giờ kém 15",
       "group": 0
     }
   ]

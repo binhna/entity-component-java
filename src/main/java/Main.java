@@ -20,8 +20,8 @@ public class Main {
         String listEntitiesPath = "resources/list_entity.json";
         String rulePath = "resources/regex/";
         Map<String, RuleSet> mapRuleSet = getRuleSet(listEntitiesPath, rulePath, "vi");
-        entityDetection("Tôi muốn cài báo thức lúc 12h đêm và 5:20", mapRuleSet);
-        inferTest("Test_NER_offline - binhna.csv", "Test_NER_offline_out - binhna.csv", mapRuleSet);
+        entityDetection("Nhắc tôi sau 5 giờ 15 phút", mapRuleSet);
+        //inferTest("Test_NER_offline - binhna.csv", "Test_NER_offline_out - binhna.csv", mapRuleSet);
     }
 
     public static String entityDetection(String input, Map<String, RuleSet> ruleset) {
@@ -40,7 +40,7 @@ public class Main {
                             .toArray(String[]::new);
                     List<String> matches = Arrays.asList(matches_);
                     for (String raw: matches){
-                        //System.out.println(entityType + ": " + raw);
+//                        System.out.println(entityType + ": " + raw + " === " + regex.pattern);
                         if (entityType.equals("_DATETIME")) {
                             DateTime entity = new DateTime(raw, new Date());
                             List<DateTime> output = entity.normalize(ruleSet);

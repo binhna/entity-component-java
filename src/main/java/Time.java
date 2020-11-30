@@ -66,6 +66,7 @@ public class Time extends Entity{
             output.add(new Time(raw, LocalDateTime.of(nowDate, LocalTime.of(hour, minute, 0, 0))));
         }
         else if (Pattern.compile(ruleset.regex.get(4).pattern).matcher(this.raw).find()) {
+            System.out.println(raw);
             List<String> allMatches = findAll(ruleset.regex.get(4).pattern, raw);
             int num = allMatches.get(0) != null ? Integer.parseInt(allMatches.get(0)) : 0;
             String _case = allMatches.get(1);
@@ -81,7 +82,28 @@ public class Time extends Entity{
                     now = now.plusHours(num);
                     break;
             }
-            output.add(new Time(raw, now));
+            String pattern = "[đĐ]ếm ngược|[nN]ữa|[sS]au|[nN]hắc|[gG]ọi|[Bb]ấm giờ|[đĐ]ổ chuông";
+            if (Pattern.compile(pattern).matcher(input).find()) {
+                output.add(new Time(raw, now));
+            }
+        }
+        if (Pattern.compile(ruleset.regex.get(5).pattern).matcher(raw).find()) {
+            List<String> allMatches = findAll(ruleset.regex.get(5).pattern, raw);
+            //System.out.println(allMatches);
+            int hour = Integer.parseInt(allMatches.get(0));
+            LocalDateTime target = LocalDateTime.now(zone);
+
+            if (allMatches.get(1) != null && allMatches.get(2) != null) {
+                target = LocalDateTime.of(nowDate, LocalTime.of(hour, 0, 0));
+                Long minute = Long.parseLong(allMatches.get(2));
+                target = target.minusMinutes(minute);
+
+            }
+            else {
+                int minute = allMatches.get(2) != null ? Integer.parseInt(allMatches.get(2)) : 0;
+                target = LocalDateTime.of(nowDate, LocalTime.of(hour, minute, 0));
+            }
+            output.add(new Time(raw, target));
         }
 
         return output;
